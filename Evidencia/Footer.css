@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*
+{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     transition: 0.5s;
+ }
+ body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+ }
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #45f3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socia-icon-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-image: url(facebook-icone-noir.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url(instagram.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(icone-linkedin-ronde-noire.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(twitter.png);
+}
+.footer-menu-container{
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+.Datosfootersi{
+    color: black;
+    opacity: 0.6;
+    text-align: center;
+}
