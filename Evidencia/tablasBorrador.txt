@@ -1,0 +1,39 @@
+Usuario
+idUsuario primary key identity
+Nombre varchar(50)
+Apellido Paterno varchar(50)
+Apellido Materno varchar(50)
+Fecha de nacimiento date
+Username varchar
+Password varchar
+Correo email
+Imagen varchar
+Fecha de creación date
+idEstatus foreign key
+
+CAT_Estatus
+idEstatus primary key identity
+Activo	char
+Eliminado char
+Bloqueado char
+
+Publicacion
+idPublicacion primary key identity
+Imagen varchar
+Descripcion varchar
+Fecha de publicacion date
+idUsuario foreign key
+idEstatus foreign key
+
+Publicacion_Categoria
+idPublicacion_categoria primary key
+idPublicacion foreign key
+idCategoria foreign key
+
+CAT_Categoria
+idCategoria primary key
+Tips char
+Diversion char
+Hospedaje char
+Comida char
+Chisme char
