@@ -37,7 +37,7 @@ footer{
     width: 50px;
     border-radius: 50px;
     border: 1px solid black;
-    background-image: url(facebook-icone-noir.png);
+    background-image: url(img/facebook-icone-noir.png);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -48,13 +48,13 @@ footer{
     filter: invert(1);
 }
 .social-icon:nth-of-type(2){
-    background-image: url(instagram.png);
+    background-image: url(img/instagram.png);
 }
 .social-icon:nth-of-type(3){
-    background-image: url(icone-linkedin-ronde-noire.png);
+    background-image: url(img/icone-linkedin-ronde-noire.png);
 }
 .social-icon:nth-of-type(4){
-    background-image: url(twitter.png);
+    background-image: url(img/twitter.png);
 }
 .footer-menu-container{
     list-style-type: none;
