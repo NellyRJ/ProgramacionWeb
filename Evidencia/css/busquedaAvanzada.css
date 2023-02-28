@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+ body{
+    
+    background: linear-gradient( #23242a, #214042, #804458) ;
+ }
+
+
+ a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+
+ header{
+    display: flex;
+    min-height: 55px;
+    background-color:  #45f3ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo img{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+ }
+
+ nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+ }
+ nav a:hover{
+    color: whitesmoke;
+ }
+
+ @media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+ }
+
+ .box{
+    margin-top: 10px;
+    position: relative;
+    width: 380px;
+    height: 500px;
+    background: #45f3ff;
+    border-radius: 8px;
+
+}
+
+.box form{
+    position: absolute;
+    justify-content: center;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    border-radius: 8px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box form h2{
+    color: #fff;
+    width: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.box form .inputBox{
+    position: relative;
+    width: 300px;
+}
+
+.box form .categoria #categoria{
+    position: relative;
+    width: 300px;
+}
+
+.box form .inputBox input{
+    position: relative;
+    width: 100%;
+    padding: 0px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none; 
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+select{
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 20px; 
+}
+
+.box form .inputBox span{
+    position:absolute;
+    left: 0;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+
+}
+
+.box form .categoria p{
+    position:absolute;
+    left: 40px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+
+}
+
+.box form .fechas input{
+    position: relative;
+    width: 75%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none; 
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    z-index: 10;
+}
+
+.box form .fechas span{
+    
+    position:absolute;
+    left: 30px;
+    padding: 20px 10px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+
+
+}
+
+.box form .btnBuscar input{
+    position: relative;
+    width: 100%;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    background: #8f8f8f;
+    outline: none;
+    border: none;
+    box-shadow: none; 
+    color: #1c1c1c;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+
+}
+
+.box form .btnBuscar input[type="submit"]{
+
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.box form .inputBox input:valid ~ span,
+.box form .inputBox input:focus ~ span{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-20px);
+}
+
+.box form .inputBox input:valid ~ i,
+.box form .inputBox input:focus ~ i{
+
+    height: 44px;
+
+}
+
+
+
+.Nombrepagina{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+ 
+}
+
+.tituloPagina{
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    color: white;
+    text-align: left;
+}
+
+.Footer{
+    width: 100% !important; 
+    height: 420px !important;
+ }
+
+ header .buscar{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background: none;
+   border-radius: 5%;
+  
+ }
+
+
+ header .buscar input{
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid #ffffff;
+    border-bottom-right-radius: 20px;
+     font-size: 18px;
+     color: #000000;
+     border-radius: 30px;
+ 
+ }
+
+ img{
+    box-sizing: border-box;
+    top: -50px;
+    left: 50%;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    
+}
+
