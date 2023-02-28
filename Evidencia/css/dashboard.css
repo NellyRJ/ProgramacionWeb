@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*
+:focus{
+    outline:none;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ body{
+     background: linear-gradient( #23242a, #214042, #804458) ;
+ }
+
+ a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+
+ header{
+    display: flex;
+    min-height: 55px;
+    background-color:  #45f3ff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo img{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+ }
+
+ nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+ }
+ nav a:hover{
+    color: whitesmoke;
+ }
+
+ @media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+ }
+
+
+.Nombrepagina{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+ 
+}
+
+.tituloPagina{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+}
+
+.textoBienvenida{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+
+.Footer{
+    width: 100% !important; 
+    height: 420px !important;
+ }
+
+ header .buscar{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background: none;
+   border-radius: 5%;
+  
+ }
+
+
+ header .buscar input{
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid #ffffff;
+    border-bottom-right-radius: 20px;
+     font-size: 18px;
+     color: #000000;
+     border-radius: 30px;
+ 
+ }
+
+ img{
+    box-sizing: border-box;
+    top: -50px;
+    left: 50%;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    
+}
+
+.OpcionesIniciales{
+    background-color: #23242a;
+    width: 100%;
+    height: 10vh;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.OpcionesIniciales a{
+
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.OpcionesIniciales a:after{
+    content: '';
+    position: absolute;
+    background-color: #45f3ff;
+    height: 3px;
+    width:0;
+    left:0;
+    bottom: -10px;
+    transition: 0.3s;
+
+}
+
+.OpcionesIniciales a:hover{
+
+    color:#ffffff;
+}
+
+.OpcionesIniciales a:hover:after{
+    width: 100%;
+}
+ 
+
+ 
